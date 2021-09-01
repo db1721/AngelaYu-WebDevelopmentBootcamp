@@ -1,0 +1,214 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  line-height: 2;
+  font-family: 'Sacramento', cursive;
+  color: #276678;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #276678;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-color: #11999E;
+  border-width: 7px;
+  width: 5%;
+  opacity: 50%;
+  margin: 10px auto;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-dark-container {
+  position: relative;
+  background-image: -webkit-linear-gradient(top, #1687A7, #276678);
+  background-image: -moz-linear-gradient(top, #1687A7, #276678);
+  background-image: -ms-linear-gradient(top, #1687A7, #276678);
+  background-image: -o-linear-gradient(top, #1687A7, #276678);
+  background-image: -webkit-gradient(to bottom, #1687A7, #276678);
+  padding: 15px 0 15px;
+}
+
+.middle-light-container {
+  position: relative;
+  background-image: -webkit-linear-gradient(top, #d3e0ea, #f6f5f5);
+  background-image: -moz-linear-gradient(top, #d3e0ea, #f6f5f5);
+  background-image: -ms-linear-gradient(top, #d3e0ea, #f6f5f5);
+  background-image: -o-linear-gradient(top, #d3e0ea, #f6f5f5);
+  background-image: -webkit-gradient(to bottom, #d3e0ea, #f6f5f5);
+  padding: 15px 0 15px;
+}
+
+.bottom-container {
+  background-color: #f6f5f5;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 15px;
+}
+
+.skills {
+  width: 60%;
+  margin: auto;
+}
+
+.skill-row {
+  width: 100%;
+  height: auto;
+  margin: 100px auto 200px auto;
+  text-align: left;
+  color: #276678;
+}
+
+.code-img {
+  width: 18%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chilli-img {
+  width: 18%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skills-head-color {
+  color: #276678;
+}
+
+.intro {
+  color: #d3e0ea;
+  padding-bottom: 25px;
+  width: 30%;
+  margin: auto auto auto auto;
+}
+
+.left-indent-paragraph {
+  margin-left: 0%;
+}
+
+.right-indent-paragraph {
+  margin-right: 0%;
+}
+
+.right-h-align {
+  margin-left: 0%;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.h2-dark-tile {
+  color: #d3e0ea;
+}
+
+.h2-light-tile {
+  color: #276678;
+}
+
+.fit-picture {
+  padding-top: 75px;
+}
+
+.clear-hr {
+  border-style: none;
+  margin: 0;
+}
+
+.contact-me {
+  color: #d3e0ea;
+}
+
+.ContactButton {
+   background: #1687A7;
+   background-image: -webkit-linear-gradient(top, #1687A7, #276678);
+   background-image: -moz-linear-gradient(top, #1687A7, #276678);
+   background-image: -ms-linear-gradient(top, #1687A7, #276678);
+   background-image: -o-linear-gradient(top, #1687A7, #276678);
+   background-image: -webkit-gradient(to bottom, #1687A7, #276678);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 8px;
+   height: 0;
+   line-height: 0;
+   color: #D3E0EA;
+   font-family: 'Montserrat', sans-serif;
+   width: 150px;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 40px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.ContactButton:hover {
+   background: #276678;
+   border: solid #276678 1px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+}
+
+.contact-me-paragraph {
+  margin: 40px auto 60px;
+  width: 50%;
+  color: #d3e0ea;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+.footer-img {
+  text-decoration: none;
+  padding: 5px;
+}
+
+.copyright {
+  font-size: .75rem;
+  text-align: left;
+}
+
+.contact-head-color {
+  color: #d3e0ea;
+}
