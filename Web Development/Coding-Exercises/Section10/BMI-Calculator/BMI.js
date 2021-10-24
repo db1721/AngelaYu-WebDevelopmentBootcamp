@@ -26,4 +26,4 @@ bmi should equal 20 when it's rounded to the nearest whole number.
 
 */
 
-var bmi = bmiCalculator(65, 1.8); 
+console.log(bmiCalculator(65, 1.8)); 
